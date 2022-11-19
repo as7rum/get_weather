@@ -1,19 +1,19 @@
 # Get Weather
 
-This code takes city name and returns json format current weather. After that it creates a message with temperature, humidity, pressure and etc. 
+This code takes city name and returns `json` format current weather. After that it creates a message with temperature, humidity, pressure and etc. 
 
 It works with [OpenWeatherMap](https://openweathermap.org/) API, so get your API token before the start. 
 
 ## Tips
 
-You can uncomment "pprint" string and check json output. 
+You can uncomment `pprint` string and check json output. 
 
 ```python
  data = r.json()
  #pprint(data)
 ```
 
-Don't forget comment the next code before (Use Cmd + /):
+Don't forget comment the next code before (Use `Cmd + /`):
 
 ```python
  city = data['name']
@@ -32,7 +32,7 @@ Don't forget comment the next code before (Use Cmd + /):
               f'Хорошего дня!')
 ```
 
-If you want to get Kelvin tempreture format delete units part from link here:
+If you want to get Kelvin tempreture format delete `units` part from link here:
 
 ```python
  r = requests.get(
@@ -41,4 +41,6 @@ If you want to get Kelvin tempreture format delete units part from link here:
 
 ## Last word 
 
-Have a success! See you. Let's bring this world to the Horizon.
+Have a success! See you. 
+
+`Let's bring this world to the Horizon!`
